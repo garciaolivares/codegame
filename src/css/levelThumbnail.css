@@ -1,0 +1,125 @@
+ 
+
+#wrapperSlider {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; 
+  text-align: center; 
+  padding: 0; 
+  background-position: 0 0;
+  background-size: cover;
+  background-color: #c5968a;
+ 
+} 
+
+
+.levelThumbnail:hover .level-header{
+	background: #42275a;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.levelThumbnail{   
+	width: 50% !important;
+	height: 100%;
+}
+	.level-image{
+		height: 100%; 
+		background-size: cover;
+	}
+		.level-image > img{
+			height: calc(100% - 4rem);
+			width: 100%;
+			padding: 2rem;
+			-o-object-fit: contain;
+			object-fit: contain;  
+    		cursor: pointer; 
+		}
+
+		.level-image > img:hover{
+			-webkit-filter: drop-shadow(5px 0px 8px #734b6d);
+  			filter: drop-shadow(5px 0px 8px #734b6d);
+		}
+
+	.level-header{
+		background: #734b6d;
+		height: 4rem;
+		position: relative;
+		width: 300px;
+		border-radius: 300px;
+		top: 3rem;
+		left: calc(50% - 150px);
+	}
+
+		.level-header .title {
+			color: white;
+			font-size: 1rem; 
+			padding: 0.5rem 1rem; 
+			text-transform: uppercase;
+			text-align: center; 
+		}
+
+		.level-header .title p{
+			margin: 0;
+		}
+
+		.level-header .description {
+			color: white;
+			font-size: 1rem; 
+			padding: 0.5rem 1rem; 
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+ 
+.carousel{
+	height: 100%;
+	width: 100%;
+	display: -webkit-inline-box;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.carousel::-webkit-scrollbar{ 
+  height: 10px !important;
+}
+
+.carousel::-webkit-scrollbar-thumb
+{
+   height: 10px !important;
+   background: #734b6d;
+   border-radius: 10px; 
+}
+
+@keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -1200px 0; }
+}
+@-moz-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -1200px 0; }
+}
+@-webkit-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -1200px 0; }
+}
+@-ms-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -1200px 0; }
+}
+@-o-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -1200px 0; }
+}
+
+
+.completed{
+	width: 42px;
+	position: absolute;
+	right: -6px;
+	top: -16px;
+}
+
+
+
+

@@ -1,0 +1,93 @@
+.player{
+	-moz-transition: all 0.6s linear;
+	 -o-transition: all 0.6s linear;
+	 -webkit-transition: all 0.6s linear;
+	 transition: all 0.6s linear;
+}
+
+.player g{
+	-moz-transition: opacity 0.4s linear;
+	 -o-transition: opacity 0.4s linear;
+	 -webkit-transition: opacity 0.4s linear;
+	 transition: opacity 0.4s linear;
+}
+
+.worldWrapper{
+	height: 100%; 
+    background-size: cover; 
+    webkit-box-shadow:  0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow:         0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+ 
+}
+
+#map{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	transition: all 0.5s;
+}
+
+.directions{
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: opacity 1s;
+}
+
+.directions:hover{
+	opacity: 0.8;
+
+}
+
+
+.hintBtn{
+	position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.hintBtn.btnIso a{
+	background-color: #dc3545;
+	box-shadow: 0 6px 0 #b01625, 0 6px 3px rgba(0,0,0,0.4); 
+}
+
+.hintBtn.btnIso a:hover, .hintBtn.btnIso a:focus {
+  background: #e20016;
+  box-shadow: 0 6px 0 #b01625,0 6px 3px rgba(0,0,0,0.4);
+}
+
+.hintBtn.btnIso a:active {
+  top: 6px;
+  box-shadow: 0 0px 0 #b01625,0 0 0 rgba(0,0,0,0.4);
+}
+
+
+.feedback{
+	position: absolute;
+	bottom: 0.5rem;
+	left: 0.5rem;
+	width: calc(100% - 1rem);
+	padding: 10px 15px;
+	color: #000000;
+	background: #ffc107;
+	border: 0.5px solid #ff6600;
+	opacity: 0;
+	-moz-transition: opacity 0.6s linear;
+	-o-transition: opacity 0.6s linear;
+	-webkit-transition: opacity 0.6s linear;
+	transition: opacity 0.6s linear;
+	text-align: center;
+
+}
+
+.feedback b{
+	background: #272822;
+    padding: 2px 8px;
+    border-radius: 52px 25px;
+    color: white;
+}
+

@@ -1,0 +1,31 @@
+{
+  "name": "game",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.5.1",
+    "ajv-keywords": "^3.2.0",
+    "esprima": "^4.0.0",
+    "firebase": "^5.2.0",
+    "mysql2": "^1.5.3",
+    "react": "^16.4.1",
+    "react-ace": "^6.1.2",
+    "react-dom": "^16.4.1",
+    "react-dom-confetti": "0.0.10",
+    "react-scripts": "1.1.4",
+    "react-split-pane": "^0.1.77",
+    "react-tooltip": "^3.6.1",
+    "react-trend": "^1.2.4",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "ztree-for-react": "^1.2.0"
+  }
+}

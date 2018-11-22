@@ -1,0 +1,72 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;  
+    font-family: 'open_sanslight' !important;
+    background: #2f3129;
+
+}
+
+#root{
+	height: 100%;
+    width: 100%; 
+  	
+    min-height: 600px;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+}
+
+.gutters{
+	padding: 15px !important;
+}
+
+
+.container-fluid{
+	padding: 0! important;
+}
+
+.noOverflow{
+	overflow: hidden;
+}
+
+
+.green{
+      color: #96cb2d;
+      padding-right: 3px;
+}
+
+.purple{
+  padding: 0 2px;
+  color: #a178e9;
+}
+
+.dot{
+  padding: 0 1px;
+}
+
+.tooltipMethod{ 
+  background: #5b3964 !important;
+  max-width: 200px;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.__react_component_tooltip.tooltipMethod.place-left:after {
+    border-left-color: #5b3964;
+    border-left-style: solid;
+    border-left-width: 6px;
+}
+
+
+.levelWrapper{
+  background-size: cover; 
+}

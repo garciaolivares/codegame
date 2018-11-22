@@ -1,0 +1,162 @@
+.dashboardWrapper{
+	padding:2rem 0rem;
+	color: white;
+    max-width: 350px;
+}
+
+
+.levelWrapper .nav-container{
+    background-color: transparent !important; 
+}
+
+
+.levelWrapper .topic-content{
+    padding: calc(2rem - 6px);
+}
+.dashboardWrapper .profile{
+	height: 15vh;
+    margin: 0 auto;
+    width: 15vh;
+    background: #734b6d;
+    border-radius: 100%;
+    overflow: hidden;
+    padding: 15px 3px;
+    border: 0.5px solid #272822;
+}
+
+
+    .dashboardWrapper .profile .picture img{
+    	-webkit-filter: drop-shadow(0px 0px 1px #42275a) drop-shadow(0px 0px 1px #42275a);
+      	filter: drop-shadow(0px 0px 2px #272822) drop-shadow(0px 0px 1px #42275a);
+    }
+
+.dashboardWrapper .name{
+	padding: 1rem;
+	color: white;
+	text-align: center;
+    text-transform: capitalize;
+}
+
+
+.badgeIcon{
+	width: 20%;
+    margin: 0.5rem auto;
+    padding: 5px;
+    max-width: 4.5rem;
+}
+
+.badgeList{
+	display: flex;
+	margin: 1rem 0;
+	padding: 1rem 0; 
+}
+
+
+.line{
+    border-bottom: 1px solid #484848;
+    margin: 0.5rem 0;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem !important;
+}
+
+
+.topBar{
+    background: -webkit-linear-gradient(to left, #734b6d, #42275a);
+    background: -webkit-gradient(linear, right top, left top, from(#734b6d), to(#42275a));
+    background: -webkit-linear-gradient(right, #734b6d, #42275a);
+    background: -o-linear-gradient(right, #734b6d, #42275a);
+    background: linear-gradient(to left, #734b6d, #42275a);
+    height: 80px;
+}
+    
+    .topBar .btnIso a{
+        margin: 1rem;
+    }
+.levelWrapper{
+    height: calc(100% - 80px);
+}
+    .levelWrapper svg{
+        height: 60%;
+
+    }
+
+
+
+
+
+.btnIso.active a{
+    top: 6px;
+    box-shadow: 0 0px 0 #3e6c20,0 0 0 rgba(0,0,0,0.4) !important;
+}
+
+
+.dashboardWrapper .row{
+    padding: 0 2rem;
+}
+
+
+.dashboardWrapper .leaderboard ul{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #2f3129;
+}
+
+.dashboardWrapper .leaderboard .userPicture{
+    max-width: 50px;
+}
+    .dashboardWrapper .leaderboard .userPicture img{
+      
+        max-height:20px;
+    }
+
+
+.dashboardWrapper .leaderboard .rank{
+    text-align: right;
+    line-height: 30px;
+    max-width: 40px;
+    padding: 0 10px;
+}
+
+.dashboardWrapper .leaderboard .score{
+    text-align: right;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.dashboardWrapper .leaderboard .name{
+    padding: 0 10px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.dashboardWrapper .leaderboard .active{ 
+    background: #734b6d;
+}   
+
+
+.dashboardWrapper .leaderboard{
+    color: white;
+    background: #2f3129;
+}
+
+
+
+.locked{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: calc(-100% - 66px);
+    left: 0;
+    cursor: not-allowed;
+
+}
+
+
+
+
+
+
+.lockedLevel{
+    -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(80%)
+}

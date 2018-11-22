@@ -1,0 +1,125 @@
+.loginWrapper{
+  height: 100%;
+  background: -webkit-linear-gradient(to left, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.well{ 
+    color: white;
+    background: #2f3129; 
+    border-radius:0!important;
+    border:none!important;
+}
+
+.well.login-box {
+  width: 300px;
+  display: inherit;
+  padding: 1rem;
+  top: calc(50% - 150px);
+  position: relative;
+  margin: 0 auto;
+}
+.well.login-box legend {
+  font-size:26px;
+  text-align:center;
+  font-weight:300;
+  padding-bottom: 0.5rem;
+}
+.well.login-box label {
+  font-weight:300;
+  font-size:16px;
+  
+}
+.well.login-box input[type="text"], .well.login-box input[type="password"] {
+  box-shadow:none;
+  border-color:#ddd;
+  border-radius:0;
+}
+
+.well.welcome-text{
+    font-size:21px;
+}
+
+/* Notifications */
+
+.notification{
+    position:fixed;
+    top: 20px;
+    right:0;
+    background-color:#FF4136;
+    padding: 20px;
+    color: #fff;
+    font-size:21px;
+    display:none;
+}
+.notification-success{
+  background-color:#3D9970;
+}
+
+.notification-show{
+    display:block!important;
+}
+
+/*Loged in*/
+.logged-in{
+  display:none;
+}
+.logged-in h1{
+  margin:0;
+  font-weight:300;
+}
+
+
+.btn-login-submit{
+  margin:  0.5rem;
+   
+  color: white !important;
+  display: inline-block;
+  position: relative;
+  padding: 0.5rem 1rem;
+  background: #518d2a;
+  z-index: 3; 
+  box-shadow: 0 6px 0 #3e6c20,0 6px 3px rgba(0,0,0,0.4);
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-login-submit{
+  margin: 1rem 0rem 0rem 0rem !important; 
+  color: white !important;
+  display: inline-block;
+  position: relative !important;
+  padding: 0.5rem 1rem;
+  background: #518d2a;
+  z-index: 3; 
+  box-shadow: 0 6px 0 #3e6c20,0 6px 3px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+
+.btn-login-submit:hover, .btn-login-submit:focus {
+  background: #57972d !important;
+  box-shadow: 0 6px 0 #3e6c20,0 6px 3px rgba(0,0,0,0.4);
+}
+
+.btn-login-submit:active {
+  top: 6px !important;
+  background: #57972d !important;
+  box-shadow: 0 0px 0 #3e6c20,0 0 0 rgba(0,0,0,0.4) !important;
+
+}
+
+
+.teacher span , .student span{
+  display: block;
+  padding: 10px 0 0 0;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.teacher img , .student img{
+  width: 50px;
+}
+
+.role .btn-login-submit{
+  margin: 30px 0 !important;
+}

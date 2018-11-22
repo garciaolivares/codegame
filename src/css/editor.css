@@ -1,0 +1,122 @@
+.editorWrapper .Pane2{
+	overflow: auto;
+}
+.debugger{
+	color: #ffffff;
+	overflow: auto;
+	padding: 1rem;
+	background: #272822;
+	height: calc(100% - 4.2rem);
+}
+
+	.debugger ::-webkit-scrollbar{
+		width: 10px;
+	}
+
+	.debugger ::-webkit-scrollbar-thumb{
+		width: 10px !important;
+		background: #734b6d;
+		border-radius: 10px; 
+	}
+
+	.debugger ul{
+		list-style: none;
+		overflow: auto;
+		margin: 0;
+		padding: 0 0.5rem; 
+	}
+
+		.debugger ul li b{
+		color: red;
+		text-shadow: 0px 0px 4px red;
+		}
+
+.ace_editor.ace_autocomplete{
+	background: #5b3964 !important;
+	color: white !important;
+	border: 1px solid #2f3129 !important;
+}
+
+
+.ace_editor.ace_autocomplete .ace_active-line{
+	background-color: #42275a !important;
+}
+
+.ace_editor.ace_autocomplete .ace_completion-highlight{
+	color: #ffa100 !important;
+}
+
+.ace_editor.ace_autocomplete .ace_rightAlignedText{
+	color: white !important;
+}
+
+
+.ace_editor.ace_autocomplete .ace_line{
+	 
+}
+
+.ace_editor.ace_autocomplete .ace_line-hover{
+	 
+	background-color: #42275a;
+	border: 0px solid transparent !important; 
+}
+
+
+.ace_object{
+	color: #4cff00;
+}
+
+.ace_method{
+	color: #4cff00;
+}
+
+.ace_marker-layer .ace_active-line {
+    background: #ffc107;
+}
+
+
+.isCodeRunning .ace_gutter-active-line {
+    background-color: #518d2a !important;
+}
+
+
+.isCodeRunning .ace_gutter-cell{
+	color: white;
+}
+
+.isCodeRunning .ace_active-line{
+	background-color: #518d2a !important;
+	 
+}
+
+.popover{
+	position: fixed;
+	top: 0.5rem !important; 
+	border: 0.5px solid #ff6600;
+	border-radius: 0;
+	opacity: 0;
+	-moz-transition: opacity 0.6s linear;
+	-o-transition: opacity 0.6s linear;
+	-webkit-transition: opacity 0.6s linear;
+	transition: opacity 0.6s linear;
+	text-align: center;
+	 
+}
+
+.popover .arrow:before{
+	border-right-color: #f60 !important;	 
+}
+.popover .arrow:after{
+	border-right-color: #ffc107 !important;	 
+}
+
+
+
+.popover-body{
+	background: #ffc107 !important;
+
+}
+
+.popover-body p{
+	margin: 2px;
+}
